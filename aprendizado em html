@@ -11,6 +11,7 @@
     <h4>Esté é apenas um teste</h4>
     <hr>
     <p>Este foi o primeiro site que eu criei<BR/> com um titulo e sub titulo<BR/> quatro linhas<BR/> e um parágrafo.</p>
+    <p>Vou colocar tudo que aprender nesse site, depois criarei outro para fazer algo iniciante</p>
     <p><em>Agora essa frase está bonita</em></p>
     <p><strong>E agora estou falando algo estremamente importante</strong> (só esta em negrito kkk)</p>
     <p></p>
@@ -22,6 +23,19 @@
 <p>Mano so queria falar que o <abbr title="People of People">PoP</abbr> é FODA</p>
 
 <p>se liguem nisso</p> <bdo dir="rtl">comi o cu de quem ta lendo</bdo>
+<p>
+</p>
+<dl> 
+    <dt>HTML</dt>
+<Dd>linguagem que se usa para fazer o coneteudo do site</Dd>
+
+    <dt>css</dt>
+<dd>linguagem que se usa para fazer o estilos de arte do site</dd>
+
+    <DT>JavaScript</DT>
+<dd>linguagem que cria a interatividade do site</dd>
+</dl>
+
 
 </body>
 </html>
