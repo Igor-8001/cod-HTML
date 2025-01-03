@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O POP É FODA</title>
+    <link rel="shortcut icon" href="fotos/favicon.png" type="image/x icon">
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <h4>Esté é apenas um teste</h4>
+    <hr>
+    <p>Este foi o primeiro site que eu criei<BR/> com um titulo e sub titulo<BR/> quatro linhas<BR/> e um parágrafo.</p>
+    <p><em>Agora essa frase está bonita</em></p>
+    <p><strong>E agora estou falando algo estremamente importante</strong> (só esta em negrito kkk)</p>
+    <p></p>
+    <img src="fotos/yamaha-MT03.png" alt="yamaha-MT03" width="250px"> <img src="fotos/yamaha-R15.png" alt="yamaha-MT03" width="250px">
+    <p></p>
+    <img src="fotos/html.jpeg" alt="html" width="250px"style="transform:rotate(180deg);">
+
+<P>H<sub>2</sub>O<BR/>1000<sup>9</sup></P>
+
+
+</body>
+</html>
+  
