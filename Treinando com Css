@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro site</title>
+<link rel="shortcut icon" href="fotos/favicon.png" type="image/x icon">
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:rgba(0, 0, 0, 0.877);
+        color:( purple );
+    }
+    h1 {
+    border: 10px solid purple;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: fit-content;
+    color: white;
+    box-shadow: 0 0 0 15px rgb(83, 1, 83);
+    background-color:black
+}
+    h2,h3,h4,h5 {color:white
+    }
+    p {
+        color:white;
+        
+    }
+    header {
+    background-color: #000000;
+    padding: 20px;
+    border-bottom: 5px solid purple;
+    text-align: center;
+}
+main {
+    background-color: #000000;
+    padding: 20px;
+    margin: 0 auto;
+    width: fit-content;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    text-align: left;
+}
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Tudo sobre minha pessoa </h1>
+  </header>
+    <p></p>
+    <p></p>
+    <main>
+    <h2> Capítulo 1.0 </h2>
+    <h3> Apenas um futuro programador de frontend </h3>
+    <p> Olá a todos, meu nome é Igor tenho 18 anos <br/>estou iniciando nesse ramo de programação pretendo iniar com <abbr title="JavaScript">Js</abbr><br/>
+    apenas sei fazer o basico em html e css Js sei fazer contas tudo o basico</p>
+    </main>
+    <p></p>
+
+
+    
+</body>
+</html>
+
+
