@@ -18,12 +18,15 @@
     width: fit-content;
     color: white;
     box-shadow: 0 0 0 15px rgb(83, 1, 83);
-    background-color:black
+    background-color:black;
+    text-shadow: #000000 2px 2px 0px;
 }
-    h2,h3,h4,h5 {color:white
+    h2,h3,h4,h5 {color:white;
+        text-shadow: #000000 2px 2px 0px;
     }
     p {
         color:white;
+        text-shadow: #000000 2px 2px 0px;
         
     }
     header {
@@ -31,6 +34,7 @@
     padding: 20px;
     border-bottom: 5px solid purple;
     text-align: center;
+    box-shadow: #530153 7px 5px 4px;
 }
 main {
     background-color: #000000;
@@ -38,6 +42,7 @@ main {
     width: fit-content;
     border-bottom: 5px solid purple;
     text-align: left;
+    box-shadow: #530153 7px 5px 4px;
 }
 section {
     background-color: #1f1d29;
@@ -57,7 +62,7 @@ section {
     <h2> Capítulo 1.0 </h2>
    <section><h3> Apenas um futuro programador de frontend </h3>
     <p> Olá a todos, meu nome é Igor tenho 18 anos <br/>estou iniciando nesse ramo de programação pretendo iniar com <abbr title="JavaScript">Js</abbr><br/>
-    apenas sei fazer o basico em html e css Js sei fazer contas tudo o basico</p></section>
+    apenas sei fazer o basico em html, css e Js sei fazer contas tudo o basico</p></section>
     </main>
     <p></p>
 
@@ -65,4 +70,5 @@ section {
     
 </body>
 </html>
+
 
