@@ -4,89 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro site</title>
-<link rel="shortcut icon" href="fotos/favicon.png" type="image/x icon">
-<style>
-    body {
-    margin: 0;
-    padding: 0;
-    height: 100%; 
-    display: flex;
-    flex-direction: column;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color:rgba(46, 46, 46, 0.877);
-        color: purple ;
-    }
-    h1 {
-    border: 10px solid purple;
-    padding: 10px 20px;
-    margin: 0 auto;
-    width: fit-content;
-    color: white;
-    box-shadow: 0 0 0 15px rgb(83, 1, 83);
-    background-color:black;
-    text-shadow: #000000 2px 2px 0px;
-}
-    h2,h3,h4,h5 {color:white;
-        text-shadow: #000000 2px 2px 0px;
-    }
-    p {
-        color:white;
-        text-shadow: #000000 2px 2px 0px;
-        
-    }
-    header {
-    background-color: #000000;
-    padding: 20px;
-    border-bottom: 5px solid purple;
-    text-align: center;
-    box-shadow: #530153 7px 5px 4px;
-}
-main {
-    background-color: #000000;
-    padding: 20px;
-    width: fit-content;
-    border-bottom: 5px solid purple;
-    text-align: left;
-    box-shadow: #530153 7px 5px 4px;
-    flex: 1;
-}
-section {
-    background-color: #1f1d29;
-    width: fit-content;
-    border: 13px solid #530153;
-    padding: 20px;
-}
-footer {
-    background-color: #000;
+    <link rel="shortcut icon" href="fotos/favicon.png" type="image/x icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Garante que a página ocupe 100% da altura da janela */
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(46, 46, 46, 0.877);
+            color: purple;
+        }
+        h1 {
+            border: 10px solid purple;
+            padding: 10px 20px;
+            margin: 0 auto;
+            width: fit-content;
+            color: white;
+            box-shadow: 0 0 0 15px rgb(83, 1, 83);
+            background-color: black;
+            text-shadow: #000000 2px 2px 0px;
+        }
+        h2, h3, h4, h5 {
+            color: white;
+            text-shadow: #000000 2px 2px 0px;
+        }
+        p {
+            color: white;
+            text-shadow: #000000 2px 2px 0px;
+        }
+        header {
+            background-color: #000000;
+            padding: 20px;
+            border-bottom: 5px solid purple;
+            text-align: center;
+            box-shadow: #530153 7px 5px 4px;
+            position: relative; /* Para permitir o posicionamento do botão */
+        }
+        main {
+            background-color: #000000;
+            padding: 20px;
+            width: fit-content;
+            border-bottom: 5px solid purple;
+            text-align: left;
+            box-shadow: #530153 7px 5px 4px;
+            flex: 1;
+        }
+        section {
+            background-color: #1f1d29;
+            width: fit-content;
+            border: 13px solid #530153;
+            padding: 20px;
+        }
+        footer {
+            background-color: #000;
             color: white;
             text-align: center;
             padding: 10px;
             border-top: 5px solid purple;
             box-shadow: 0px -2px 4px #530153;
-}
+        }
+        button.cadastra-se {
+            padding: 5px 10px; /* Botão pequeno */
+            font-size: 14px; /* Texto menor */
+            position: absolute; /* Posicionamento absoluto */
+            top: 10px; /* Distância do topo do header */
+            right: 10px; /* Distância da borda direita do header */
+            background-color: #530153; /* Cor de fundo */
+            color: white; /* Cor do texto */
+            border: none; /* Remover bordas */
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer; /* Cursor ao passar o mouse */
+            text-shadow: #000 2px 2px 0px;
+        }
+        button.cadastra-se:hover {
+            background-color: #8400ff; /* Cor ao passar o mouse */
+        }
+        
     </style>
 </head>
 <body>
-  <header>
-    <h1>Tudo sobre minha pessoa </h1>
-  </header>
-    <p></p>
-    <p></p>
+    <script>window.alert('Seja bem vindo, obrigado por comparecer ao meu portifólio')</script>  
+    <header>
+        <h1>Tudo sobre minha pessoa</h1>
+        <button class="cadastra-se" onclick="inicio()">Cadastra-se</button>
+    </header>
     <main>
-    <h2> Capítulo 1.0 </h2>
-   <section><h3> Apenas um futuro programador de frontend </h3>
-    <p> Olá a todos, meu nome é Igor tenho 18 anos <br/>estou iniciando nesse ramo de programação pretendo iniar com <abbr title="JavaScript">Js</abbr><br/>
-    apenas sei fazer o basico em html, css e Js sei fazer contas tudo o basico</p></section>
+        <h2>Capítulo 1.0</h2>
+        <section>
+            <h3>Apenas um futuro programador de frontend</h3>
+            <p>Olá a todos, meu nome é Igor tenho 18 anos <br> estou iniciando nesse ramo de programação pretendo iniciar com <abbr title="JavaScript">Js</abbr><br>
+            apenas sei fazer o básico em HTML, CSS e JS sei fazer contas tudo o básico</p>
+        </section>
     </main>
+    <script>
+        function inicio() {
+            let nome = window.prompt('Coloque seu nome');
+            let cpf = window.prompt('coloque seu cpf')
+            window.alert(`Olá, ${nome}! É um prazer te conhecer!`);
+            window.alert(`Então ${nome} eu fiz esse site com um botão escondido se você achar ira se surpreender`) 
+            window.alert(`Você tem cerca de 5 minutos para encontrar o botão pois após isso iremos fazer uma compra no seu CPF:${cpf}`)
+        }
+    </script>
     <footer> 
-    <p>&copy; 2025 Igor - Futuro Programador</p>
-</footer>
-
-    <p></p>
-
-
-    
+        <p>&copy; 2025 <a href=https://github.com/Igor-8001 target="_blank">Igor</a>
+            - Futuro Programador</p>
+    </footer>
 </body>
 </html>
-
-
